@@ -1,10 +1,10 @@
 fieldset {
     border-radius: 2px;
     width: 800px;
-    margin: 0;
+    margin: auto;
     padding: 0;
 }
-table{width: 100%;
+table {width: 100%;
   margin: 0;
   padding: 0;
   border-collapse: collapse;
@@ -161,7 +161,9 @@ margin: 8px 6px 4px 2px;
 }
 
 .text{padding: 4px;
-margin-left: 5px;}
+margin-left: 5px;
+}
+
 .textcoment {margin: 0 0 25px 8px;
     padding: 0;
-
+}
