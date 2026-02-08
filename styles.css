@@ -1,0 +1,173 @@
+fieldset {
+    border-radius: 2px;
+    width: 800px;
+    margin: 0;
+    padding: 0;
+}
+table{width: 100%;
+margin: 0;
+padding: 0;}
+
+
+h1 {
+    width: 100%;
+
+    margin: 0 0 0 4px;
+}
+
+.box {
+    background-color: lightgray;
+}
+
+.box2{
+    
+    margin: 8px;
+    background-color: rgb(244, 224, 221);
+    border-radius: 2px;
+    padding: 2px 5px 1px 5px;}
+
+.cardTr {
+    display: flex;
+    width: 100%;
+
+    justify-content: flex-start;
+}
+
+.cardInput {
+    width: 270px;
+    margin: 8px;
+}
+
+
+.inputCvc {
+    width: 160px;
+    margin: 8px;
+}
+
+.inputAmount {
+    width: 264px;
+    margin: 8px;
+}
+
+.firstNameinput {
+    width: 340px;
+    margin: 8px;
+}
+
+.lastNameinput {
+    width: 400px;
+    margin: 8px;
+}
+
+.montoTd {padding:
+    width: 300px;
+}
+
+.tdcvc {
+    width: 200px;
+}
+
+.nameTr {
+    display: flex;
+    justify-content: space-between align-items: center;
+}
+
+.nameTd {
+    width: 365px;
+}
+
+.direccionTr {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.cityTd {
+    width: 365px;
+}
+
+.cityInput {
+    width: 340px;
+    margin: 8px;
+}
+
+.stateTd {
+    width: 170px;
+}
+
+.stateSelect {
+    margin: 8px;
+    width: 150px;
+    height: 22px;
+}
+
+.postalInput {
+    width: 228px;
+    margin: 8px;
+
+}
+
+.pagoTr {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pagoTd {
+    width: 365px;
+}
+
+.messageTd {
+    width: 370px;
+}
+
+.messageText {
+    margin: 8px;
+}
+
+
+.bottonTr {
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 2px;
+    background-color: lightgray;
+    width: 100%;
+    height: 45px;
+
+ 
+}
+
+.bottonTdSend {
+   border: none;
+    background-color: #0d6efd;
+    border-radius: 3px;
+    color: white;
+    width: 65px;
+    height: 25px;
+margin: 8px 6px 4px 2px;
+
+}
+
+
+.bottonTdCancel {
+       background-color: grey;
+    border-radius: 3px;
+    color: white;
+    width: 65px;
+    height: 25px;
+    border: none;
+    margin: 8px 2px 4px 6px;
+    
+    
+    
+}
+
+
+.text{padding: 4px;
+margin-left: 5px;}
+.textcoment {margin: 0 0 25px 8px;
+    padding: 0;
+
+textarea{ margin: 0;}
+.tr{border: 1px solid black;}
+.td{border: 1px solid black;}

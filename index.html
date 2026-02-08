@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <form action="">
+<fieldset>
+
+    <div class="box">
+        <h1>Payment form example</h1>
+
+    </div>
+
+    
+   <div class="box2"> <p>Some fields are missing</p>
+</div>
+    <table>
+
+
+
+<tr class="cardTr">
+    <td><div class="text">Card #</div>
+    <input class="cardInput" type="text" name="cardNumber" placeholder="XXXXXXXXXXXXXXXXXXX"></td>
+    <td class="tdcvc"><div class="text">CVC #</div>
+        <input class="inputCvc" type="text" name="cvc" placeholder="0000">
+    </td>
+    <td class="MontoTd"><div class="text">Amount</div>
+        $<input class="inputAmount" type="text" name="Amount" placeholder="Amount">
+</td>
+</tr>
+<tr class="nameTr">
+    <td class="nameTd">
+        <div class="text">First Name</div>
+        <input class="firstNameinput" type="text" name="firstName" placeholder=""/>
+    </td>
+    
+    <td class="lastNametd">
+        <div class="text">Last Name</div>
+        <input class="lastNameinput" type="text" name="lastName" placeholder=""/>
+    </td>
+</tr>
+<tr class="direccionTr">
+    <td class="cityTd">
+        <div class="text">City</div>
+        <input class="cityInput" type="text" name="city" placeholder=""/>
+    </td>
+<td class="stateTd">
+    <div class="text">State</div>
+<select name="state" class="stateSelect">
+    <option value="">Pick a state</option>
+    <option value="AL">Alabama</option>
+    <option value="AK">Alaska</option>
+    <option value="AZ">Arizona</option>
+    <option value="AR">Arkansas</option>
+    <option value="CA">California</option>
+    <option value="CO">Colorado</option>
+    <option value="CT">Connecticut</option>
+    <option value="DE">Delaware</option>
+    <option value="FL">Florida</option>
+    <option value="GA">Georgia</option>
+</select>
+</td>
+
+<td>
+    <div class="text">Postal Code</div>
+
+<input class="postalInput" type="text" name="postalCode" placeholder="">
+</td>
+    </tr>
+<tr class="pagoTr">
+    <td class="pagoTd">
+        <div class="text" id="pay">We aceept: </div>
+        <label>
+        <input type="radio" name="paymentMethod" value="visa">
+         <i class="fa-brands fa-cc-visa"></i></label>
+         <label>
+        <input type="radio" name="paymentMethod" value="mastercard"> 
+        <i class="fa-brands fa-cc-mastercard"></i>
+        </label>
+        <label>
+        <input type="radio" name="paymentMethod" value="paypal">
+         <i class="fa-brands fa-cc-paypal"></i>
+    </label>
+    <label>
+    <input type="radio" name="paymentMethod" value="bitcoin">
+    <i class="fa-sharp fa-solid fa-square-bitcoin"></i>
+</label>
+    </td>
+
+    <td class="messageTd"><div class="text">Message</div>
+    <textarea class="messageText" name="message" id="message" cols="54" rows="5"></textarea>
+<p class="textcoment">Add any notes here.</p></td>
+</tr>
+<tr class="bottonTr">
+    <td class="bottonTd"> <button type="button" class="bottonTdCancel">cancel</button></td>
+    <td class="bottonTd2"><div class="botones"><button type="button" class="bottonTdSend">send</button></td>
+    
+</tr>
+
+
+
+
+
+
+
+
+</fieldset>
+    
+    </form>
+    </div>
+</body>
+</html>
